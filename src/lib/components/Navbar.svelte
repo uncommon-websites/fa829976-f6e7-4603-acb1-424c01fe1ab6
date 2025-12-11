@@ -17,25 +17,24 @@
         <!-- Logo -->
         <a href="/" class="flex items-center gap-2 text-white font-semibold text-xl tracking-tight">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M2 17L12 22L22 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M2 12L12 17L22 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="currentColor"/>
+                <path d="M7 12l3 3 7-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
             </svg>
-            Canopy
+            LawnCare
         </a>
 
         <!-- Links -->
         <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
-            <a href="#" class="hover:text-white transition-colors">Products</a>
+            <a href="#" class="hover:text-white transition-colors">Platform</a>
             <a href="#" class="hover:text-white transition-colors">Solutions</a>
-            <a href="#" class="hover:text-white transition-colors">Developers</a>
-            <a href="#" class="hover:text-white transition-colors">Resources</a>
             <a href="#" class="hover:text-white transition-colors">Customers</a>
+            <a href="#" class="hover:text-white transition-colors">Resources</a>
+            <a href="#" class="hover:text-white transition-colors">Pricing</a>
         </div>
 
         <!-- CTA -->
-        <a href="#" class="hidden md:flex items-center gap-1 text-sm font-medium text-white hover:text-[var(--color-canopy-lime)] transition-colors">
-            Request Demo
+        <a href="#" class="hidden md:flex items-center gap-1 text-sm font-medium text-white hover:text-[var(--color-brand-primary)] transition-colors">
+            Schedule Demo
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
